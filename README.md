@@ -8,7 +8,7 @@ There will be two parts to this project:
 __Diagram__: You'll first develop a diagram that you can present as part of your portfolio and as a visual aid to understand the __CloudFormation script__:.
 Script (Template and Parameters): The second part is to interpret the instructions and create a matching CloudFormation script.
 
-## Scenario
+## 📂 Scenario
 1. Your company is creating an Instagram clone called Udagram.
 
 2. Developers want to deploy a new application to the AWS infrastructure.
@@ -33,7 +33,7 @@ Be sure to allocate at least 10GB of disk space so that you don't run into issue
 - One of the output exports of the __CloudFormation__ script should be the public URL of the __LoadBalancer__. __Bonus points__ if you add ``http://`` in front of the load balancer __DNS Name__ in the output, for convenience.
 
 
-## Other Considerations
+## 📂 Other Considerations
 
 
 1. You can deploy your servers with an SSH Key into Public subnets while you are creating the script. This helps with troubleshooting. Once done, move them to your private subnets and remove the SSH Key from your __Launch Configuration__.
